@@ -1,5 +1,8 @@
 import React from 'react'
 import Table from './components/Table'
+import './config/styles.css'
+import './config/reset.css'
+
 class App extends React.Component {
   constructor(props) {
     super(props)
