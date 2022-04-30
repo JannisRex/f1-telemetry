@@ -29,7 +29,7 @@ class Main extends Component {
                 <div className='innerSection green'>
                   <h5>LEFT CONTENT</h5>
                 </div>
-                <div className='innerSection purple'>
+                <div className='innerSection petrol'>
                   <h5>RIGHT CONTENT</h5>
                 </div>
               </div>
@@ -47,7 +47,7 @@ class Main extends Component {
                 Track Length: <br />
                 Session: <br />
               </div>
-              <div className='innerSection purple'>
+              <div className='innerSection petrol'>
                 <h5>RIGHT CONTENT</h5>
                 <br />
                 Weather: <br />
