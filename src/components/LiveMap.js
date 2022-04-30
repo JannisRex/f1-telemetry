@@ -53,6 +53,12 @@ const Tracks = {
   Vietnam: Vietnam,
 }
 
+const mapStyle = {
+  overflow: 'hidden',
+  height: '40%',
+  width: '40%',
+}
+
 export default class LiveMap extends Component {
   constructor(props) {
     super(props)
@@ -86,7 +92,7 @@ export default class LiveMap extends Component {
     ) : (
       <div className='wrapper'>
         <div className='liveMap'>
-          <TrackMap />
+          <TrackMap style={mapStyle}/>
         </div>
       </div>
     )
