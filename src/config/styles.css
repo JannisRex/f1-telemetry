@@ -94,28 +94,36 @@ h4 {
 ----------------------------
 */
 
+.fullSize {
+  width: 100vw;
+  height: 100vh;
+}
+
 .wrapper {
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
 }
 
 .container {
   display: flex;
-  width: 100vw;
-  height: 100vh;
 }
 
 .section {
   flex-grow: 1;
+  flex-shrink: 1;
   /* height: 100%; */
 }
 
 /* add gap between sections, effectively skipping the first left */
 .section + .section {
-  margin-left: 2%;
+  margin-left: 1.5%;
+}
+
+.innerSection {
+  width: 100%;
 }
 
 .view {
@@ -130,6 +138,48 @@ h4 {
   max-height: 40vh;
   padding: 15px;
   text-align: center;
+}
+
+/* 
+----------------------------
+          Flexbox
+----------------------------
+*/
+
+.flex {
+  flex: 1;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex3 {
+  flex: 3;
+}
+
+.flex4 {
+  flex: 4;
+}
+
+.flex5 {
+  flex: 5;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.alignStart {
+  align-items: flex-start;
+}
+
+.alignEnd {
+  align-items: flex-end;
 }
 
 /* 

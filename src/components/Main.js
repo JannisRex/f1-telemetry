@@ -17,15 +17,35 @@ class Main extends Component {
 
   render() {
     return (
-      <div class='container'>
+      <div class='container fullSize'>
         <div class='section red'>
-          <div className='wrapper'>LEFT CONTENT</div>
+          <div class='container'>
+            <div className='wrapper alignStart'>
+              Race Engineer
+              <div className='wrapper row innerSection'>
+                <div className='innerSection green'>LEFT CONTENT</div>
+                <div className='innerSection purple'>RIGHT CONTENT</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class='section blue'>
-          <div className='wrapper'>CENTER CONTENT</div>
+          <div className='wrapper alignStart'>
+            Grand Prix
+            <div className='wrapper row innerSection'>
+              <div className='innerSection green'>LEFT CONTENT</div>
+              <div className='innerSection purple'>RIGHT CONTENT</div>
+            </div>
+          </div>
         </div>
-        <div class='section green'>
-          <div className='wrapper'>RIGHT CONTENT</div>
+        <div class='section slategrey'>
+          <div className='wrapper alignStart'>
+            Dashboard
+            <div className='wrapper row innerSection'>
+              <div className='innerSection green'>LEFT CONTENT</div>
+              <div className='innerSection purple'>RIGHT CONTENT</div>
+            </div>
+          </div>
         </div>
       </div>
     )

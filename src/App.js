@@ -1,9 +1,7 @@
 import React from 'react'
-import Table from './components/Table'
-import LiveMap from './components/LiveMap'
+import Main from './components/Main'
 import './config/styles.css'
-import './config/reset.css'
-
+// import './config/reset.css'
 
 class App extends React.Component {
   constructor(props) {
@@ -14,8 +12,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='wrapper'>
-        <Table />
-        <LiveMap/>
+        <Main />
       </div>
     )
   }
