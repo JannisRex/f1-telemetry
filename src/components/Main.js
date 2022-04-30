@@ -21,29 +21,38 @@ class Main extends Component {
         <div class='section red'>
           <div class='container'>
             <div className='wrapper alignStart'>
-              Race Engineer
+              <h4>Race Engineer</h4>
               <div className='wrapper row innerSection'>
-                <div className='innerSection green'>LEFT CONTENT</div>
-                <div className='innerSection purple'>RIGHT CONTENT</div>
+                <div className='innerSection green'>
+                  <h5>LEFT CONTENT</h5>
+                </div>
+                <div className='innerSection purple'>
+                  <h5>RIGHT CONTENT</h5>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class='section blue'>
           <div className='wrapper alignStart'>
-            Grand Prix
+            <h4>Grand Prix</h4>
             <div className='wrapper row innerSection'>
-              <div className='innerSection green'>LEFT CONTENT</div>
-              <div className='innerSection purple'>RIGHT CONTENT</div>
+              <div className='innerSection green'>
+                <h5>LEFT CONTENT</h5>
+              </div>
+              <div className='innerSection purple'>
+                <h5>RIGHT CONTENT</h5>
+              </div>
             </div>
           </div>
         </div>
         <div class='section slategrey'>
           <div className='wrapper alignStart'>
-            Dashboard
+            <h4>Dashboard</h4>
             <div className='wrapper row innerSection'>
-              <div className='innerSection green'>LEFT CONTENT</div>
-              <div className='innerSection purple'>RIGHT CONTENT</div>
+              <div className='innerSection green'>
+                <h5>dashboard</h5>
+              </div>
             </div>
           </div>
         </div>
