@@ -44,17 +44,24 @@ class Main extends Component {
                 <br />
                 GP: <br />
                 Track Length: <br />
+                Session: <br />
               </div>
               <div className='innerSection purple'>
                 <h5>RIGHT CONTENT</h5>
                 <br />
                 Weather: <br />
-                Temperature: <br />
+                Temperature Air: <br />
+                Temperature Track: <br />
+              </div>
+            </div>
+            <div className='wrapper innerSection'>
+              <div className='innerSection slategrey'>
+                <LiveMap track={'Monaco'} />
               </div>
             </div>
           </div>
         </div>
-        <div className='section slategrey'>
+        <div className='section yellow'>
           <div className='wrapper alignStart'>
             <h4>Dashboard</h4>
             <div className='wrapper row innerSection'>
@@ -62,7 +69,6 @@ class Main extends Component {
                 <h5>dashboard</h5>
                 <br />
                 <Table />
-                {/* <LiveMap track={'Monaco'} /> */}
               </div>
             </div>
           </div>
