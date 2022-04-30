@@ -1,7 +1,9 @@
 import React from 'react'
 import Table from './components/Table'
+import LiveMap from './components/LiveMap'
 import './config/styles.css'
 import './config/reset.css'
+
 
 class App extends React.Component {
   constructor(props) {
@@ -13,6 +15,7 @@ class App extends React.Component {
     return (
       <div className='wrapper'>
         <Table />
+        <LiveMap/>
       </div>
     )
   }
