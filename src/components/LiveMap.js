@@ -55,8 +55,8 @@ const Tracks = {
 
 const mapStyle = {
   overflow: 'hidden',
-  height: '40%',
-  width: '40%',
+  height: '60%',
+  width: '100%',
 }
 
 export default class LiveMap extends Component {
