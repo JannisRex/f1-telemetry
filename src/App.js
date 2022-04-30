@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from './components/Main'
+import './config/reset.css'
 import './config/styles.css'
-// import './config/reset.css'
 
 class App extends React.Component {
   constructor(props) {
