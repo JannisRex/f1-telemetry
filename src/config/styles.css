@@ -112,7 +112,7 @@ h5 {
 */
 
 .fullSize {
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
 }
 
@@ -155,6 +155,11 @@ h5 {
   max-height: 40vh;
   padding: 15px;
   text-align: center;
+}
+
+.liveMap {
+  width: 80%;
+  height: 100%;
 }
 
 /* 
