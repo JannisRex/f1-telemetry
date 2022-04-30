@@ -1,5 +1,29 @@
 import React, { Component } from 'react'
-import {ReactComponent as Austria} from '../assets/tracks/austria.svg'
+
+import {
+  Abudhabi,
+  Australia,
+  Austria,
+  Azerbaijan,
+  Bahrain,
+  Belgium,
+  Brazil,
+  Canada,
+  China,
+  France,
+  Greatbritain,
+  Hungary,
+  Italy,
+  Japan,
+  Mexico,
+  Monaco,
+  Netherlands,
+  Russia,
+  Singapore,
+  Spain,
+  Usa,
+  Vietnam,
+} from '../assets/tracks/index'
 
 export default class LiveMap extends Component {
   render() {
@@ -7,10 +31,10 @@ export default class LiveMap extends Component {
       <div class='view'>
         <div class='viewQuarter'>
           <div class='liveMap'>
-            <Austria/>
+            <Monaco />
           </div>
         </div>
       </div>
     )
   }
-} 
+}
