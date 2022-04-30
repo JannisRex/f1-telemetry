@@ -26,33 +26,67 @@ import {
   Vietnam,
 } from '../assets/tracks/index'
 
+// Matches all TrackNames to TrackComponents
+// so we can dynamically assign at runtime
+const Tracks = {
+  Abudhabi: Abudhabi,
+  Australia: Australia,
+  Austria: Austria,
+  Azerbaijan: Azerbaijan,
+  Bahrain: Bahrain,
+  Belgium: Belgium,
+  Brazil: Brazil,
+  Canada: Canada,
+  China: China,
+  France: France,
+  Greatbritain: Greatbritain,
+  Hungary: Hungary,
+  Italy: Italy,
+  Japan: Japan,
+  Mexico: Mexico,
+  Monaco: Monaco,
+  Netherlands: Netherlands,
+  Russia: Russia,
+  Singapore: Singapore,
+  Spain: Spain,
+  Usa: Usa,
+  Vietnam: Vietnam,
+}
+
 export default class LiveMap extends Component {
   constructor(props) {
     super(props)
     this.state = {
       isLoading: true,
       selectedTrack: '',
+      TrackMap: null,
     }
   }
 
   componentDidMount = () => {
-    console.log(this.props.track)
+    this.getTrackComponent()
   }
 
-  getTrackComponent = () => {
+  // Gets corresponding Component to given Trackname
+  getTrackComponent = async () => {
     const { track } = this.props
+    const TrackMap = Tracks[track]
+
+    // saves TrackMap to state and sets loading to false
+    this.setState({
+      isLoading: false,
+      TrackMap,
+    })
   }
 
   render() {
-    const { isLoading, selectedTrack } = this.state
+    const { isLoading, TrackMap } = this.state
     return isLoading ? (
-      <ActivityIndicator/>
+      <ActivityIndicator />
     ) : (
-      <div className='view'>
-        <div className='viewQuarter'>
-          <div className='liveMap'>
-            <Monaco />
-          </div>
+      <div className='wrapper'>
+        <div className='liveMap'>
+          <TrackMap />
         </div>
       </div>
     )
