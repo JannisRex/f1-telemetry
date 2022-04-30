@@ -3,21 +3,17 @@ import React, { Component } from 'react'
 export default class Standings extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      isLoading: true,
-      selectedTrack: '',
-      TrackMap: null,
-    }
+    this.state = {}
   }
 
   render() {
     return (
-      <table class='table-container'>
-        <tr class='table-content driver1'>
+      <table class='tableContainer'>
+        <tr class='tableContent driver1'>
           <td>
             <span class='position'>1</span>
-            <span class='driver-name'>Lewis</span>
-            <span class='driver-surname'>Hamilton</span>
+            <span class='driverName'>Lewis</span>
+            <span class='driverSurname'>Hamilton</span>
             <span class='team'>Mercedes</span>
           </td>
           <td>
@@ -25,11 +21,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver2'>
+        <tr class='tableContent driver2'>
           <td>
             <span class='position'>2</span>
-            <span class='driver-name'>Max</span>
-            <span class='driver-surname'>Verstappen</span>
+            <span class='driverName'>Max</span>
+            <span class='driverSurname'>Verstappen</span>
             <span class='team'>Red Bull Racing</span>
           </td>
           <td>
@@ -37,11 +33,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver3'>
+        <tr class='tableContent driver3'>
           <td>
             <span class='position'>3</span>
-            <span class='driver-name'>Valtteri</span>
-            <span class='driver-surname'>Bottas</span>
+            <span class='driverName'>Valtteri</span>
+            <span class='driverSurname'>Bottas</span>
             <span class='team'>Mercedes</span>
           </td>
           <td>
@@ -49,11 +45,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver4'>
+        <tr class='tableContent driver4'>
           <td>
             <span class='position'>4</span>
-            <span class='driver-name'>Alexander</span>
-            <span class='driver-surname'>Albon</span>
+            <span class='driverName'>Alexander</span>
+            <span class='driverSurname'>Albon</span>
             <span class='team'>Red Bull Racing</span>
           </td>
           <td>
@@ -61,11 +57,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver5'>
+        <tr class='tableContent driver5'>
           <td>
             <span class='position'>5</span>
-            <span class='driver-name'>Charles</span>
-            <span class='driver-surname'>Leclerc</span>
+            <span class='driverName'>Charles</span>
+            <span class='driverSurname'>Leclerc</span>
             <span class='team'>Ferrari</span>
           </td>
           <td>
@@ -73,11 +69,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver6'>
+        <tr class='tableContent driver6'>
           <td>
             <span class='position'>6</span>
-            <span class='driver-name'>Lando</span>
-            <span class='driver-surname'>Norris</span>
+            <span class='driverName'>Lando</span>
+            <span class='driverSurname'>Norris</span>
             <span class='team'>McLaren</span>
           </td>
           <td>
@@ -85,11 +81,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver7'>
+        <tr class='tableContent driver7'>
           <td>
             <span class='position'>7</span>
-            <span class='driver-name'>Lance</span>
-            <span class='driver-surname'>Stroll</span>
+            <span class='driverName'>Lance</span>
+            <span class='driverSurname'>Stroll</span>
             <span class='team'>Racing Point</span>
           </td>
           <td>
@@ -97,11 +93,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver8'>
+        <tr class='tableContent driver8'>
           <td>
             <span class='position'>8</span>
-            <span class='driver-name'>Daniel</span>
-            <span class='driver-surname'>Ricciardo</span>
+            <span class='driverName'>Daniel</span>
+            <span class='driverSurname'>Ricciardo</span>
             <span class='team'>Renault</span>
           </td>
           <td>
@@ -109,11 +105,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver9'>
+        <tr class='tableContent driver9'>
           <td>
             <span class='position'>9</span>
-            <span class='driver-name'>Sergio</span>
-            <span class='driver-surname'>Perez</span>
+            <span class='driverName'>Sergio</span>
+            <span class='driverSurname'>Perez</span>
             <span class='team'>Racing Point</span>
           </td>
           <td>
@@ -121,11 +117,11 @@ export default class Standings extends Component {
             <i class='fas fa-chevron-right'></i>
           </td>
         </tr>
-        <tr class='table-content driver10'>
+        <tr class='tableContent driver10'>
           <td>
             <span class='position'>10</span>
-            <span class='driver-name'>Esteban</span>
-            <span class='driver-surname'>Ocon</span>
+            <span class='driverName'>Esteban</span>
+            <span class='driverSurname'>Ocon</span>
             <span class='team'>Renault</span>
           </td>
           <td>

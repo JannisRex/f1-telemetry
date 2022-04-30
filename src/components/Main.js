@@ -56,7 +56,7 @@ class Main extends Component {
               </div>
             </div>
             <div className='wrapper innerSection'>
-              <div className='innerSection slategrey'>
+              <div className='innerSection pearl'>
                 <LiveMap track={'Monaco'} />
               </div>
             </div>
@@ -72,7 +72,9 @@ class Main extends Component {
                 <Table />
                 <br />
                 <br />
+              <div className='slategrey'>
                 <Standings />
+                </div>
               </div>
             </div>
           </div>

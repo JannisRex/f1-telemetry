@@ -121,6 +121,10 @@ h5 {
   background: slategrey;
 }
 
+.pearl {
+  background: #f8f6f0;
+}
+
 /* 
 ----------------------------
           GENERAL
@@ -252,18 +256,18 @@ h5 {
 ----------------------------
 */
 
-.table-container {
+.tableContainer {
   width: 60%;
   min-width: 600px;
   /* border: 1px solid black; */
   margin: 100px auto;
 }
 
-.table-container th {
+.tableContainer th {
   display: none;
 }
 
-.table-container tr {
+.tableContainer tr {
   display: flex;
   padding: 0;
   border-radius: 10px;
@@ -272,48 +276,48 @@ h5 {
   cursor: pointer;
 }
 
-.table-container tr.table-content {
+.tableContainer tr.tableContent {
   justify-content: space-between;
   padding: 0;
 }
 
-.table-container tr.table-content td {
+.tableContainer tr.tableContent td {
   margin: 0 20px 0 10px;
   font-size: 1.4rem;
   text-align: center;
   padding: 10px;
 }
 
-.table-container tr.table-content td .position {
+.tableContainer tr.tableContent td .position {
   border-right: 5px solid var(--mercedes-color);
   padding-right: 10px;
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-.table-container tr.table-content td .driver-name {
+.tableContainer tr.tableContent td .driverName {
   margin-left: 10px;
 }
 
-.table-container tr.table-content td .driver-surname {
+.tableContainer tr.tableContent td .driverSurname {
   font-weight: bolder;
   text-transform: uppercase;
 }
 
-.table-container tr.table-content td .team {
+.tableContainer tr.tableContent td .team {
   font-size: 1rem;
   color: #666;
   margin-left: 10px;
 }
 
-.table-container tr.table-content td .points {
+.tableContainer tr.tableContent td .points {
   background-color: #ccc;
   border-radius: 50px;
   font-size: 1.1rem;
   padding: 0 10px;
 }
 
-.table-container tr.table-content td i {
+.tableContainer tr.tableContent td i {
   margin-left: 20px;
   color: #e10600;
   font-size: 18px;
@@ -321,64 +325,64 @@ h5 {
 
 /* HOVER */
 
-.table-container tr:hover {
+.tableContainer tr:hover {
   background-color: var(--hover-color);
   color: #ffffff;
 }
 
-.table-container tr:hover .points {
+.tableContainer tr:hover .points {
   color: black;
 }
 
 /* DRIVER 2 */
 
-.table-container .table-content.driver2 .position {
+.tableContainer .tableContent.driver2 .position {
   border-right: 5px solid var(--redbull-color);
 }
 
 /* DRIVER 4 */
 
-.table-container .table-content.driver4 .position {
+.tableContainer .tableContent.driver4 .position {
   border-right: 5px solid var(--redbull-color);
 }
 
 /* DRIVER 5 */
 
-.table-container .table-content.driver5 .position {
+.tableContainer .tableContent.driver5 .position {
   border-right: 5px solid var(--ferrari-color);
 }
 
 /* DRIVER 6 */
 
-.table-container .table-content.driver6 .position {
+.tableContainer .tableContent.driver6 .position {
   border-right: 5px solid var(--mclaren-color);
 }
 
 /* DRIVER 7 */
 
-.table-container .table-content.driver7 .position {
+.tableContainer .tableContent.driver7 .position {
   border-right: 5px solid var(--racing-point-color);
 }
 
 /* DRIVER 8 */
 
-.table-container .table-content.driver8 .position {
+.tableContainer .tableContent.driver8 .position {
   border-right: 5px solid var(--renault-color);
 }
 
 /* DRIVER 9 */
 
-.table-container .table-content.driver9 .position {
+.tableContainer .tableContent.driver9 .position {
   border-right: 5px solid var(--racing-point-color);
 }
 
 /* DRIVER 10 WITH EXTRA MARGIN/PADDING TO COMPENSATE EXTRA DIGIT */
 
-.table-container .table-content.driver10 .position {
+.tableContainer .tableContent.driver10 .position {
   border-right: 5px solid var(--renault-color);
   padding-right: 7px;
 }
 
-.table-container .table-content.driver10 td {
+.tableContainer .tableContent.driver10 td {
   margin-left: 0;
 }
