@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
-import Table from 'react-bootstrap/Table'
 
-export default class TableF1 extends Component {
+export default class Table extends Component {
   render() {
     return (
-      <Table striped bordered hover>
+      <table class='tableDashboard'>
         <thead>
           <tr>
             <th class='header'>POS</th>
@@ -35,8 +34,8 @@ export default class TableF1 extends Component {
           <tr class='driver'>
             <td>2.</td>
             <td>Lenni</td>
-            <td>01.12.239</td>
-            <td> - </td>
+            <td className='purple'>01.12.239</td>
+            <td>0.1</td>
             <td>23.412</td>
             <td>20.213</td>
             <td>34.511</td>
@@ -48,7 +47,7 @@ export default class TableF1 extends Component {
             <td>3.</td>
             <td>Max Verstappen</td>
             <td>01.12.239</td>
-            <td> - </td>
+            <td>0.7</td>
             <td>23.412</td>
             <td>20.213</td>
             <td>34.511</td>
@@ -60,7 +59,7 @@ export default class TableF1 extends Component {
             <td>4.</td>
             <td>Sergio Perez</td>
             <td>01.12.239</td>
-            <td> - </td>
+            <td>0.2</td>
             <td>23.412</td>
             <td>20.213</td>
             <td>34.511</td>
@@ -68,32 +67,20 @@ export default class TableF1 extends Component {
             <td>22.415</td>
             <td>20.314</td>
           </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+          <tr class='driver'>
+            <td>5.</td>
+            <td>Charles</td>
+            <td>01.12.239</td>
+            <td>0.8</td>
+            <td>23.412</td>
+            <td>20.213</td>
+            <td>34.511</td>
+            <td>32.361</td>
+            <td>22.415</td>
+            <td>20.314</td>
           </tr>
         </tbody>
-      </Table>
+      </table>
     )
   }
 }
