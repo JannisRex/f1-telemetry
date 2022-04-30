@@ -33,16 +33,6 @@ body {
   background-color: #101820ff;
 }
 
-/* remove top margin from headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-}
-
 /* set size and font */
 h1 {
   font-size: 6.5vh;
@@ -66,6 +56,40 @@ h4 {
 
 /* 
 ----------------------------
+          COLORS
+----------------------------
+*/
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.teal {
+  background: teal;
+}
+
+.purple {
+  background: purple;
+}
+
+.slategrey {
+  background: slategrey;
+}
+
+/* 
+----------------------------
           GENERAL
 ----------------------------
 */
@@ -76,6 +100,22 @@ h4 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section {
+  flex-grow: 1;
+  /* height: 100%; */
+}
+
+/* add gap between sections, effectively skipping the first left */
+.section + .section {
+  margin-left: 2%;
 }
 
 .view {
