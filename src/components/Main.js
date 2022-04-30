@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import LiveMap from './LiveMap'
 
 // import { w3cwebsocket as W3CWebSocket } from 'websocket'
 // const client = new W3CWebSocket('ws://127.0.0.1:20778')
@@ -17,9 +18,9 @@ class Main extends Component {
 
   render() {
     return (
-      <div class='container fullSize'>
-        <div class='section red'>
-          <div class='container'>
+      <div className='container fullSize'>
+        <div className='section red'>
+          <div className='container'>
             <div className='wrapper alignStart'>
               <h4>Race Engineer</h4>
               <div className='wrapper row innerSection'>
@@ -33,7 +34,7 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <div class='section blue'>
+        <div className='section blue'>
           <div className='wrapper alignStart'>
             <h4>Grand Prix</h4>
             <div className='wrapper row innerSection'>
@@ -46,7 +47,7 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <div class='section slategrey'>
+        <div className='section slategrey'>
           <div className='wrapper alignStart'>
             <h4>Dashboard</h4>
             <div className='wrapper row innerSection'>

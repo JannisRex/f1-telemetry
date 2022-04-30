@@ -26,11 +26,12 @@ import {
 } from '../assets/tracks/index'
 
 export default class LiveMap extends Component {
-  render() {
+  render(track) {
+    console.log(track)
     return (
-      <div class='view'>
-        <div class='viewQuarter'>
-          <div class='liveMap'>
+      <div className='view'>
+        <div className='viewQuarter'>
+          <div className='liveMap'>
             <Monaco />
           </div>
         </div>
