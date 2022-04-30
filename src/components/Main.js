@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LiveMap from './LiveMap'
 import Table from './Table'
+import Standings from './Standings'
 
 // import { w3cwebsocket as W3CWebSocket } from 'websocket'
 // const client = new W3CWebSocket('ws://127.0.0.1:20778')
@@ -69,6 +70,9 @@ class Main extends Component {
                 <h5>dashboard</h5>
                 <br />
                 <Table />
+                <br />
+                <br />
+                <Standings />
               </div>
             </div>
           </div>
