@@ -62,7 +62,7 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <div className='section yellow'>
+        <div className='section teal'>
           <div className='wrapper alignStart'>
             <h4>Dashboard</h4>
             <div className='wrapper row innerSection'>
