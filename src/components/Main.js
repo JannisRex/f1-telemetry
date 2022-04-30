@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import LiveMap from './LiveMap'
+import Table from './Table'
 
 // import { w3cwebsocket as W3CWebSocket } from 'websocket'
 // const client = new W3CWebSocket('ws://127.0.0.1:20778')
@@ -40,9 +41,15 @@ class Main extends Component {
             <div className='wrapper row innerSection'>
               <div className='innerSection green'>
                 <h5>LEFT CONTENT</h5>
+                <br />
+                GP: <br />
+                Track Length: <br />
               </div>
               <div className='innerSection purple'>
                 <h5>RIGHT CONTENT</h5>
+                <br />
+                Weather: <br />
+                Temperature: <br />
               </div>
             </div>
           </div>
@@ -53,6 +60,9 @@ class Main extends Component {
             <div className='wrapper row innerSection'>
               <div className='innerSection green'>
                 <h5>dashboard</h5>
+                <br />
+                <Table />
+                {/* <LiveMap track={'Monaco'} /> */}
               </div>
             </div>
           </div>
